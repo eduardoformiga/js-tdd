@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Nossa biblioteca do curso de JS com TDD na prática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoformiga/js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Eduardo Formiga <eduardo.formiga@gmail.com> (https://eduardoformiga.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoformiga/js-tdd/issues"
+  },
+  "homepage": "https://github.com/eduardoformiga/js-tdd#readme"
+}
