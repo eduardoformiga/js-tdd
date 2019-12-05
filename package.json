@@ -4,6 +4,8 @@
   "description": "Nossa biblioteca do curso de JS com TDD na prática.",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/eduardoformiga/js-tdd/issues"
   },
-  "homepage": "https://github.com/eduardoformiga/js-tdd#readme"
+  "homepage": "https://github.com/eduardoformiga/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "husky": "^3.1.0"
+  }
 }
